@@ -380,6 +380,7 @@ bluelink {
 /* Darker background on mouse-over */
 .homebtn:hover {
   background-color: #b6b4b8;
-  color: black
+  color: black;
 }
+
 
