@@ -337,8 +337,8 @@ hr {
   right: 30px;
   z-index: 99;
 
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background-color: #6b1d78;
   border: none;
@@ -346,7 +346,7 @@ hr {
 
 .btn-to-top:hover {
   background-color: #ddd ;
-  color: black ;
+  color: black;
 }
 
 /* Add a blue text color to links e.g. Terms and Conditions */
@@ -380,6 +380,6 @@ bluelink {
 /* Darker background on mouse-over */
 .homebtn:hover {
   background-color: #b6b4b8;
-  color: black
+  color: black;
 }
 
