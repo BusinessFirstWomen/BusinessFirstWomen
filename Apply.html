@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <title>Get Involved</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/apply.css">
+
+</head>
+
+
+<body>
+
+  <header>
+    <!--Insert Aishah's Header and Nav Bar-->
+    <!--START-->
+    <nav class="navbar navbar-dark bg-light">
+      <a href="../code/index (2).html"  href="home">Home</a>
+      <a href="../code/Aboutus.html" target="blank" id="About-us">About us</a>
+      <a href="../code/businesses.html" target="blank" id="Businesses">Businesses</a>
+      <a href="../code/contact_us.html" target="blank" id="Contact-us">Contact us</a>
+      <a href="../code/Blog.html" target="blank"id="Blog">Blog</a>
+      
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search
+        </button>
+      </form>
+    </nav>
+    <!--END-->
+
+    <!--Style this text-->
+    <h1 class="GetInvolved Title"> Get Involved</h1>
+
+    <!--Banner Image: <span>Photo by <a href="https://unsplash.com/@socialcut?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">S O C I A L . C U T</a> on <a href="https://unsplash.com/s/photos/women-in-business?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>-->
+    <!--Style banner to fill width-->
+    <img class="GetInvolved Banner" src="./Images/GetInvolvedBanner.png" alt="A banner photo of women working at a desk" style="width: 100%;">
+  
+    </header>
+
+  <main>    
+    <!--Style this text too-->
+    <h1 class="container GetInvolved Title" id="form1title"> Personal Details</h1>
+    <!--Style this text-->
+    <h3 class="container GetInvolved Intro" id="GetInvolvedIntroText">Here you can submit your business venture for approval to feature on our website.</h3>
+    
+    <!--FORM GROUP1-->
+    <!--Personal Details Form-->
+    <form action="#" class="form group1" id="form1">
+      <div class="container personal-details">
+        
+        <hr>
+        
+        <!--Simple Questions -->
+        <label for="FirstName"><b>First Name</b><span id="name"></span></label>
+        <input type="text" placeholder="Enter First Name" name="FirstName" id="FirstName" required><br><br>
+        
+        <label for="LastName"><b>Last Name</b></label>
+        <input type="text" placeholder="Enter Last Name" name="LastName" id="LastName" required><br><br>
+    
+        <label for="Email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="Email" id="Email" required><br><br>
+      
+        <!--Drop Down Selection-->
+        <label for="GenderIdentity"><b>Gender Identity</b></label>
+        <select class="custom-select d-block w-100" name="GenderIdentity" id="GenderIdentity" required>
+          <option value="">Select...</option>
+          <option value="">Female</option>
+          <option value="">Male</option>
+          <option value="">Other</option>
+          <option value="">Prefer not to say</option>
+        </select><br><br>
+
+        <!--File Upload Button-->
+        <label for="PersonalProfilePhoto"><b>Personal Profile Photo </b></label>
+        <p class="PersonalProfilePhoto">Please upload a personal profile photo below (optional).</p>
+        <input type="file" class="choosefilebtn" name="filename"/>
+      </div>
+    </form>
+    
+    <br><br>
+
+  <!--Make appear on submission of 'Next'-->
+  <header>
+    <!--Style this text too-->
+    <h1 class="container GetInvolved Title" id="form2title"> Business Details</h1>
+  </header>
+
+    <!--FORM GROUP2-->
+    <form action="#" class="form group2" id="form2">
+      <div class="container business-details">
+        
+        <hr>
+
+        <!--Simple Questions -->
+        <label for="BusinessName"><b>Business Name</b></label>
+        <input type="text" placeholder="Enter Business Name" name="BusinessName" id="BusinessName" required><br><br>
+        
+        <!--Drop Down Selection-->
+        <label for="BusinessField"><b>Business Field</b></label>
+        <select class="custom-select d-block w-100" name="BusinessField" id="BusinessField" required>
+          <option value="">Select...</option>
+          <option value="">Clothing</option>
+          <option value="">Food & Beverage</option>
+          <option value="">Art & Collectables</option>
+          <option value="">Jewellery & Accessories</option>
+          <option value="">Home & Living</option>
+          <option value="">Marketing</option>
+          <option value="">Tech</option>
+          <option value="">Music</option>
+          <option value="">Service provider</option>
+        </select><br>
+       
+        <!--Big TextArea - Detailed Description Question -->
+        <label for="BusinessDescription"><b>Business Description</b></label>
+        <p class="BusinessDescriptionDetails">Please submit a detailed description about your business.</p>
+        <textarea placeholder="Enter description..." rows="4" cols="50" required name="BusinessDescription" id="BusinessDescription" ></textarea><br><br>
+
+        <!--Simple Questions - URL -->
+        <label for="BusinessURL"><b>Business Website URL </b>(if applicable)</label>
+        <input type="url" placeholder="Enter URL (e.g. www.businessname.co.uk)" name="BusinessURL" id="BusinessURL" ><br><br>
+
+        <div class=SocialMedia>
+          <label for="SocialMedia"><b>Social Media URLs </b>(if applicable)</label><br>
+
+          <label for="Twitter">Twitter</label>
+          <input type="text" placeholder="Enter URL"><br>
+    
+          <label for="Instagram">Instagram</label>
+          <input type="text" placeholder="Enter URL"><br>
+
+          <label for="Facebook">Facebook</label>
+          <input type="text" placeholder="Enter URL"><br>
+
+          <label for="Etsy">Etsy</label>
+          <input type="text" placeholder="Enter URL"><br><br>     
+        </div>
+      </div>
+    </form>
+
+    <a href="https://twitter.com" target="_blank">
+      <span class="social-icon">
+        <i class="fab fa-twitter"></i>
+      </span>
+    </a>
+    <a href="https://facebook.com" target="_blank">
+      <span class="social-icon">
+        <i class="fab fa-facebook"></i>
+      </span>
+    </a>
+    <a href="https://instagram.com" target="_blank">
+      <span class="social-icon">
+        <i class="fab fa-instagram"></i>
+      </span>
+    </a>
+    
+    <!--Next Button - Add Javascript to clear this page and add new questions?
+    <a href="#" class="roundbutton previous" onclick="RemoveForm1()">&#8249;</a>
+    <a href="#" class="roundbutton next">&#8250;</a>-->
+    <button class="indent roundbutton previous" id="previousButton" onclick="ShowPersonalDetailsForm()">&#8249;</button>
+    <button class="roundbutton next" id="nextButton" onclick="ShowBusinessDetailsForm()">&#8250;</button>
+
+    <button class="btn btn-primary btn-to-top" id="go-top-button" title="Go to top" style="display: block;">Top</button>
+
+    <hr>
+    <!--Terms and Conditions-->
+    <p class="container" id="form2tandc">By submitting your details you agree to our <a href="TermsConditions.html" class="bluelink terms&conditions">Terms & Conditions</a>.</p>
+
+    <!--SUBMIT BUTTON - The <input type="submit"> defines a button for submitting the form data to a form-handler.
+    The form-handler is typically a file on the server with a script for processing input data.
+    The form-handler is specified in the form's action attribute.}-->
+    <button type="submit" class="container submitbtn" id="form2submit" onclick="check()" href="ThankYou.html">Submit</button><br><br>
+    
+  </main>
+
+
+ 
+  <!--Insert Aishah's Footer-->
+  <!--START-->
+  <footer class="page-footer font-small blue pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+    
+      <!-- Grid row -->
+      <div class="row">
+    
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+    
+          <!-- Content -->
+          <i class="far fa-envelope-open"></i>
+          <h5 class="text-uppercase">Monthly Newsletter</h5>
+          <p class="newsletter"> Join us and recieve monthly updates instantly.</p>
+          <p><form class="form-inline">
+            <div class="form-group mr-2">
+              <label class="sr-only" for="inputEmail">Email</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form></p>
+    
+          </div>
+          <!-- Grid column -->
+    
+          <hr class="clearfix w-100 d-md-none pb-3">
+    
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+    
+            <!-- Links -->
+            
+    
+            <ul class="list-unstyled">
+              <li>
+                <a href="../code/index (2).html"target="blank">Home</a>
+              </li>
+              <li>
+                <a href="../code/Aboutus.html"target="blank">About Us</a>
+              </li>
+              <li>
+                <a href="../code/Blog.html"target="blank">Latest Blog</a>
+              </li>
+              <li>
+                <a href="../code/contact_us.html"target="blank">Contact Us</a>
+              </li>
+            </ul>
+    
+          </div>
+          <!-- Grid column -->
+    
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+              <div class="page-content page-container" id="page-content">
+                <div class="padding">
+                    <div class="row container d-flex justify-content-center">
+                        <div class="col-sm-6"> <button type="button" class="btn btn-primary btn-rounded btn-icon"><i class="fab fa-instagram"></i> </button> <button type="button" class="btn btn-dark btn-rounded btn-icon"> <i class="fab fa-facebook"></i> </button> <button type="button" class="btn btn-danger btn-rounded btn-icon"> <i class="fab fa-twitter"></i> </button> <button type="button" class="btn btn-info btn-rounded btn-icon"> <i class="fab fa-linkedin"></i>  </button> 
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">BusinessFirstWomen &copy; 2020
+    </div>
+  </footer>
+  <!--END-->
+
+  <!--Go to top button-->
+  <button class="btn btn-primary btn-to-top" id="go-top-button" title="Go to top">Top</button>
+
+
+  
+  <!--SCRIPTS-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- our custom js! -->
+  <script src="./js/apply.js"></script>
+
+</body>
+
+</html>
