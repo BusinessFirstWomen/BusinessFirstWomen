@@ -340,13 +340,13 @@ hr {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: #6b1d78 !important;
-  border: none !important;
+  background-color: #6b1d78;
+  border: none;
 }
 
 .btn-to-top:hover {
-  background-color: #ddd !important;
-  color: black !important;
+  background-color: #ddd ;
+  color: black ;
 }
 
 /* Add a blue text color to links e.g. Terms and Conditions */
