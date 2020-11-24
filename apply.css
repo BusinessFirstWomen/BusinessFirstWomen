@@ -80,9 +80,9 @@ h1{
   
 }
 
-.list-unstyled {
+/*.list-unstyled {
   
-}
+}*/
 
 .list-unstyled a{
 color: black !important;
@@ -113,7 +113,6 @@ border-radius: 50px;
 margin-top: 40px
 }
 /*FOOTER END*/
-
 
 
 body {
@@ -383,3 +382,4 @@ bluelink {
   background-color: #b6b4b8;
   color: black
 }
+
