@@ -115,6 +115,7 @@ margin-top: 40px
 /*FOOTER END*/
 
 
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -345,7 +346,7 @@ hr {
 }
 
 .btn-to-top:hover {
-  background-color: #ddd ;
+  background-color: #ddd;
   color: black;
 }
 
@@ -380,6 +381,5 @@ bluelink {
 /* Darker background on mouse-over */
 .homebtn:hover {
   background-color: #b6b4b8;
-  color: black;
+  color: black
 }
-
